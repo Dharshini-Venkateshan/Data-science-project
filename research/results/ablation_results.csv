@@ -1,0 +1,4 @@
+Experiment,Critic,Self-Reflection,Final Model,Metric,Val Metric,Test Metric,CV Std,Gen Gap,Brier Score,Critic Health,Reflection Cycles,Runtime (s)
+Standard ML Baseline,No,No,LogisticRegression,f1_macro,0.8328,0.8194,0.0874,0.0134,0.0947,N/A,0,7.09
+ML + Critic (Audit Only),Yes,No,LogisticRegression,f1_macro,0.8328,0.8194,0.0874,0.0134,0.0947,90.0,0,6.57
+Full System (Self-Reflection),Yes,Yes,LogisticRegression,f1_macro,0.8328,0.8194,0.0874,0.0134,0.0947,90.0,1,7.69

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment / secrets
+.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated workspace data
+workspace/
+
+# Generated ML artifacts
+*.joblib
+*.parquet
+
+# OS / IDE
+.DS_Store
+.vscode/
